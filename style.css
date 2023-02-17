@@ -1,0 +1,165 @@
+@font-face {
+    font-family: idroid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+body {
+    background-color: #84E1AD;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    
+}
+
+header {
+    background-image: linear-gradient(to top, #0b2718, #3CD680);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    height: 250px;
+    max-width: auto ;
+    min-width: auto;
+    border-radius: 10px;
+    border: 20px;
+
+    
+    
+    
+    
+}
+
+nav >a:hover {
+    color: rgba(255, 255, 255, 0.699);
+    background-color: #3CD680;
+    border-radius: 5px;
+    
+}
+
+nav {
+    text-align: left;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin: auto;
+    padding: 10px;
+    
+    
+    
+        
+}
+
+a {
+    text-shadow: 1px 1px 0px black;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+nav > a {
+    text-decoration: none;
+    background-color: #ffffff00;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+    margin-left: 10px;
+    transition-duration: 0.5s;
+    display: inline inline-block
+}
+
+h1 {
+    font-size: 50px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 1px 1px black;
+    
+}
+
+h2 {
+    text-align: left;
+    font-family: idroid;
+    font-size: 40px;
+    color: #547764;
+    padding: 10px 10px 10px 50px; 
+    text-shadow: 1px 1px 2px black;  
+}
+
+#titulosection1 {
+
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    text-align: left;
+    font-size: 30px;
+    color: #ebecec;
+    background-color: #2FA866;
+    max-width: 1100px;
+    min-width: 300px;
+    padding-left: 15px;
+    text-align: center;
+    
+    
+    
+} 
+
+h3{
+    text-align: left;
+    padding: 10px 10px 10px 50px;
+    font-size: 30px;
+    font-family: idroid;
+    color: #547764;
+    background-image: linear-gradient(to right,#C9ECD7 , #c9ecd700)
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+p#paragrafoheader {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.822);
+    text-align: center;
+    text-shadow: 1px 2px 1px black;
+}
+
+
+
+main {
+    background-color: white;
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.363);
+    border-radius: 10px;
+    min-width: 320px;
+}
+div.video {
+    background-color: #0b2718;
+    margin-bottom: 30px;
+    margin-top: 0;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+section{
+    background-color: #C9ECD7;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+    text-align: justify
+}
+
+
